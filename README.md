@@ -26,7 +26,7 @@ And then execute:
     $ rake cms:migrate:publish
 
 ## Changelog
-See [Changelog](https://github.com/gertimon/scrivito_seo_headlin_widget/blob/master/CHANGELOG.md) for more
+See [Changelog](https://github.com/gertimon/scrivito_seo_headline/blob/master/CHANGELOG.md) for more
 details.
 
 ## Contributing
