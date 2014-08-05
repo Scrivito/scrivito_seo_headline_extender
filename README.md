@@ -9,11 +9,11 @@ Add this line to your application's `Gemfile`:
 
     gem 'scrivito_seo_headline_wigdet'
 
-Add this line to your application Stylesheet manifest for default Styles:
+You can add this line to your application Stylesheet manifest for default Styles:
 
     *= require scrivito_seo_headline_widget/application
 
-If you require diffrent font sizes than you can use your own styles. Look at [the file](https://github.com/gertimon/scrivito_seo_headlin_widget/blob/master/CHANGELOG.md)
+Or if you require diffrent font sizes than you can use your own styles. Copy styles from [this file](https://github.com/gertimon/scrivito_seo_headline/blob/master/app/assets/stylesheets/scrivito_seo_headline/application.css) and change lines for your App.
 
 And then execute:
 
