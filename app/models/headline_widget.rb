@@ -1,4 +1,4 @@
-class SeoHeadlineWidget < Widget
+class HeadlineWidget < Widget
   def css_class
     [self.size, self.css_style, self.alignment].join(" ")
   end

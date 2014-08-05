@@ -4,7 +4,7 @@ scrivito_seo_headline
 [![Gem Version](https://badge.fury.io/rb/scrivito_seo_headline.svg)](http://badge.fury.io/rb/scrivito_seo_headline)
 [![Code Climate](https://codeclimate.com/github/gertimon/scrivito_seo_headline/badges/gpa.svg)](https://codeclimate.com/github/gertimon/scrivito_seo_headline)
 
-A Widget for Scrivito for a Headline with more control and some SEO features
+A Widget for Scrivito for a Headline with more control and some SEO features. It will extends the HeadlineWidget from Kickstarter if it exits.
 
 ## Installation
 
@@ -17,6 +17,8 @@ You can add this line to your application Stylesheet manifest for default Styles
     *= require scrivito_seo_headline_widget/application
 
 Or if you require diffrent font sizes than you can use your own styles. Copy styles from [this file](https://github.com/gertimon/scrivito_seo_headline/blob/master/app/assets/stylesheets/scrivito_seo_headline/application.css) and change lines for your App.
+
+You also need to delete or update the view and the model of headlinewidget if you used kickstarter.
 
 And then execute:
 
