@@ -1,6 +1,9 @@
 scrivito_seo_headline
 =====================
 
+[![Gem Version](https://badge.fury.io/rb/scrivito_seo_headline.svg)](http://badge.fury.io/rb/scrivito_seo_headline)
+[![Code Climate](https://codeclimate.com/github/gertimon/scrivito_seo_headline/badges/gpa.svg)](https://codeclimate.com/github/gertimon/scrivito_seo_headline)
+
 A Widget for Scrivito for a Headline with more control and some SEO features
 
 ## Installation
