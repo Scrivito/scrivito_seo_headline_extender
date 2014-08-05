@@ -8,6 +8,6 @@ class SeoHeadlineWidget < Widget
   end
 
   def tag
-    self.type.blank? ? :h1 : self.type.to_sym
+    self.type.blank? ? :h3 : self.type.to_sym
   end
 end
