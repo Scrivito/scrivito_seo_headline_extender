@@ -10,11 +10,11 @@ A Widget for Scrivito for a Headline with more control and some SEO features. It
 
 Add this line to your application's `Gemfile`:
 
-    gem 'scrivito_seo_headline_wigdet'
+    gem 'scrivito_seo_headline'
 
 You can add this line to your application Stylesheet manifest for default Styles:
 
-    *= require scrivito_seo_headline_widget/application
+    *= require scrivito_seo_headline/application
 
 Or if you require diffrent font sizes than you can use your own styles. Copy styles from [this file](https://github.com/gertimon/scrivito_seo_headline/blob/master/app/assets/stylesheets/scrivito_seo_headline/application.css) and change lines for your App.
 
