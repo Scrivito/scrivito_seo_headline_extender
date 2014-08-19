@@ -1,5 +1,9 @@
 # Changelog: Seo Headline Widget
 
+## 0.0.3
+
+* Change some defaults
+
 ## 0.0.2
 
 * Does not create a new widget type, extends or create HeadlineWidget
