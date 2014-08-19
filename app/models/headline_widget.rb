@@ -4,7 +4,7 @@ class HeadlineWidget < Widget
   end
 
   def css_style
-    self.style.blank? ? "normal" : self.style
+    self.style.blank? ? "" : self.style
   end
 
   def tag

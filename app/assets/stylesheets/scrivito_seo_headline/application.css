@@ -39,11 +39,11 @@ h1.large, h2.large, h3.large, h4.large, h5.large, h6.large {
 }
 
 h1.medium, h2.medium, h3.medium, h4.medium, h5.medium, h6.medium {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 h1.small, h2.small, h3.small, h4.small, h5.small, h6.small {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 h1.text, h2.text, h3.text, h4.text, h5.text, h6.text {
