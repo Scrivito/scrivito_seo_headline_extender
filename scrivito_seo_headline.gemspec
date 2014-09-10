@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.platform    = Gem::Platform::RUBY
   gem.name        = "scrivito_seo_headline"
   gem.version     = ScrivitoSeoHeadline::VERSION
-  gem.authors     = ["gertimon"]
-  gem.email       = ["gert.geidel@infopark.de"]
-  gem.homepage    = "https://scrivito.com"
+  gem.authors     = ["Scrivito"]
+  gem.email       = ["support@scrivito.com"]
+  gem.homepage    = "https://www.scrivito.com"
   gem.summary     = "Scrivito Widget for a headline with seo features"
   gem.description = "Scrivito Widget for a headline with seo features"
   gem.license     = "LGPL-3.0"
