@@ -1,5 +1,9 @@
 # Changelog: Seo Headline Widget
 
+## 1.0.0
+
+* Fix: ... view
+
 ## 0.0.4
 
 * Changed Author to Scrivito
