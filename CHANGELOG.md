@@ -1,5 +1,10 @@
 # Changelog: Seo Headline Widget
 
+## 0.0.4
+
+* Changed Author to Scrivito
+* Fix: Use kickstarter attribute Anchor
+
 ## 0.0.3
 
 * Change some defaults
