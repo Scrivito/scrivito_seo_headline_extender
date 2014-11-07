@@ -1,4 +1,8 @@
-# Changelog: Seo Headline Widget
+# Seo Headline Widget Extender
+
+## 1.1.0
+
+* Rename to new naming convention
 
 ## 1.0.0
 
