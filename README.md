@@ -22,9 +22,9 @@ You also need to delete or update the view and the model of headlinewidget if yo
 And then execute:
 
     $ bundle
-    $ rake cms:migrate:install
-    $ rake cms:migrate
-    $ rake cms:migrate:publish
+    $ rake scrivito:migrate:install
+    $ rake scrivito:migrate
+    $ rake scrivito:migrate:publish
 
 ## Changelog
 See [Changelog](https://github.com/gertimon/scrivito_seo_headline_extender/blob/master/CHANGELOG.md) for more
