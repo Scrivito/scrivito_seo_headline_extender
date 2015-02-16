@@ -10,6 +10,7 @@ A Widget for Scrivito for a Headline with more control and some SEO features. It
 Add this line to your application's `Gemfile`:
 
     gem 'seo_headline_extender'
+    gem 'scrivito_advanced_editors'
 
 You can add this line to your application Stylesheet manifest for default Styles:
 
