@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/scrivito_seo_headline_extender.svg)](http://badge.fury.io/rb/scrivito_seo_headline_extender)
 [![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_seo_headline_extender/badges/gpa.svg)](https://codeclimate.com/github/Scrivito/scrivito_seo_headline_extender)
 
-A Widget for Scrivito for a Headline with more control and some SEO features. It will extends the HeadlineWidget from Kickstarter if it exits.
+A Widget for Scrivito for a Headline with more control and some SEO features.
 
 ## Installation
 
