@@ -19,16 +19,7 @@ You can add this line to your application Javascript manifest for default Styles
 
     *= require scrivito_seo_headline_extender
 
-Or if you require diffrent font sizes than you can use your own styles. Copy styles from [this file](https://github.com/gertimon/scrivito_seo_headline_extender/blob/master/app/assets/stylesheets/scrivito_seo_headline_extender/application.css) and change lines for your App.
-
-You also need to delete or update the view and the model of headlinewidget if you used kickstarter or the example app.
-
-And then execute:
-
-    $ bundle
-    $ rake scrivito:migrate:install
-    $ rake scrivito:migrate
-    $ rake scrivito:migrate:publish
+If your App defines a Headline Widget, you have to delete it.
 
 ## Changelog
 
