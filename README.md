@@ -17,7 +17,7 @@ You can add this line to your application Stylesheet manifest for default Styles
 
 You can add this line to your application Javascript manifest for default Styles:
 
-    *= require scrivito_seo_headline_extender
+    //= require scrivito_seo_headline_extender
 
 If your App defines a Headline Widget, you have to delete it.
 
