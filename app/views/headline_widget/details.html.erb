@@ -1,19 +1,23 @@
-<div class="details-view">
-  <h4>Headline</h4>
+<%= scrivito_details_for 'Headline' do %>
   <%= scrivito_tag(:div, widget, :headline) %>
+<% end %>
 
-  <h4>Type</h4>
+<%= scrivito_details_for 'Type' do %>
   <%= scrivito_toggle_button_editor(widget, :type) %>
+<% end %>
 
-  <h4>Size</h4>
+<%= scrivito_details_for 'Size' do %>
   <%= scrivito_toggle_button_editor(widget, :size) %>
+<% end %>
 
-  <h4>Style</h4>
+<%= scrivito_details_for 'Style' do %>
   <%= scrivito_toggle_button_editor(widget, :style) %>
+<% end %>
 
-  <h4>Alignment</h4>
+<%= scrivito_details_for 'Alignment' do %>
   <%= scrivito_toggle_button_editor(widget, :alignment) %>
+<% end %>
 
-  <h4>Anchor</h4>
+<%= scrivito_details_for 'Anchor' do %>
   <%= scrivito_tag(:div, widget, :anchor) %>
-</div>
+<% end %>
