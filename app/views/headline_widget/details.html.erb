@@ -3,19 +3,15 @@
 <% end %>
 
 <%= scrivito_details_for 'Type' do %>
-  <%= scrivito_toggle_button_editor(widget, :type) %>
+  <%= scrivito_tag(:div, widget, :type) %>
 <% end %>
 
 <%= scrivito_details_for 'Size' do %>
-  <%= scrivito_toggle_button_editor(widget, :size) %>
-<% end %>
-
-<%= scrivito_details_for 'Style' do %>
-  <%= scrivito_toggle_button_editor(widget, :style) %>
+  <%= scrivito_tag(:div, widget, :size) %>
 <% end %>
 
 <%= scrivito_details_for 'Alignment' do %>
-  <%= scrivito_toggle_button_editor(widget, :alignment) %>
+  <%= scrivito_tag(:div, widget, :alignment) %>
 <% end %>
 
 <%= scrivito_details_for 'Anchor' do %>

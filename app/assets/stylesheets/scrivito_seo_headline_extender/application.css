@@ -1,74 +1,9 @@
-h1 {
-  font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h4 {
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h5 {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h6 {
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1.large, h2.large, h3.large, h4.large, h5.large, h6.large {
-  font-size: 36px;
-}
-
-h1.medium, h2.medium, h3.medium, h4.medium, h5.medium, h6.medium {
-  font-size: 24px;
-}
-
-h1.small, h2.small, h3.small, h4.small, h5.small, h6.small {
-  font-size: 18px;
-}
-
-h1.text, h2.text, h3.text, h4.text, h5.text, h6.text {
-  font-size: 14px;
-}
-
-h1.normal, h2.normal, h3.normal, h4.normal, h5.normal, h6.normal {
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold {
-  font-weight: bold;
-  font-style: normal;
-}
-
-h1.italic, h2.italic, h3.italic, h4.italic, h5.italic, h6.italic {
-  font-weight: normal;
-  font-style: italic;
-}
-
-h1.bold-italic, h2.bold-italic, h3.bold-italic, h4.bold-italic, h5.bold-italic, h6.bold-italic {
-  font-weight: bold;
-  font-style: italic;
-}
+h1, .h1, .large { font-size: 32px; line-height: 40px; }
+h2, .h2, .medium { font-size: 27px; line-height: 35px; }
+h3, .h3, .normal { font-size: 22px; line-height: 30px; }
+h4, .h4, .small { font-size: 18px; line-height: 28px; }
+h5, .h5, .text { font-size: 15px; line-height: 26px; }
+h6, .h6 { font-size: 13px; line-height: 23px; }
 
 h1.left, h2.left, h3.left, h4.left, h5.left, h6.left {
   text-align: left;
