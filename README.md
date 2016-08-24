@@ -14,6 +14,24 @@ Add this line to your application Stylesheet manifest:
 
 If your app already includes a Headline widget, you need to delete it to avoid a conflict.
 
+## Localization
+
+The following code represents the default localization for English. Copy it to your `en.yml` and change it if necessary:
+
+```yaml
+en:
+  scrivito_headline_widget:
+    thumbnail:
+      title: Headline
+      description: The headline widget displays a page heading and allows to set an anchor. Also has some options for SEO
+    details:
+      headline: Headline
+      type: Type
+      size: Size
+      alignment: Alignment
+      anchor: Anchor
+```
+
 ## Customization
 
 We recommend to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) which provides nicer controls.
