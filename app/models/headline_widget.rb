@@ -1,5 +1,6 @@
 class HeadlineWidget < Widget
   attribute :headline, :string
+  attribute :small, :string
   attribute :anchor, :string
   attribute :type, :enum, values: ['h1','h2','h3','h4','h5','h6'], default: 'h3'
   attribute :size, :enum, values: ['h1','h2','h3','h4','h5','h6']

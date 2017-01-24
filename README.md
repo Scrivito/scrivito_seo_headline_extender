@@ -26,6 +26,7 @@ en:
       description: The headline widget displays a page heading and allows to set an anchor. Also has some options for SEO
     details:
       headline: Headline
+      small: Additional small headline
       type: Type
       size: Size
       alignment: Alignment

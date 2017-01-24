@@ -1,1 +1,11 @@
-<%= scrivito_tag(widget.tag, widget, :headline, class: widget.css_class, id: widget.anchor.presence) %>
+<%= content_tag widget.tag, class: widget.css_class, id: widget.anchor.presence do %>
+  <% if scrivito_in_editable_view? %>
+    <%= scrivito_tag(:span, widget, :headline) %>
+    <%= scrivito_tag(:small, widget, :small) %>
+  <% else %>
+    <%= widget.headline %>
+    <% if widget.small.present? %>
+      <%= content_tag :small, widget.small %>
+    <% end %>
+  <% end %>
+<% end %>

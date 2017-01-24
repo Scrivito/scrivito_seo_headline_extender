@@ -2,6 +2,10 @@
   <%= scrivito_tag(:div, widget, :headline) %>
 <% end %>
 
+<%= scrivito_details_for t('scrivito_headline_widget.details.small', default: 'Additional small headline') do %>
+  <%= scrivito_tag(:div, widget, :small) %>
+<% end %>
+
 <%= scrivito_details_for t('scrivito_headline_widget.details.type', default: 'Type') do %>
   <%= scrivito_tag(:div, widget, :type) %>
 <% end %>
