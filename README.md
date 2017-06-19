@@ -12,6 +12,10 @@ Add this line to your application Stylesheet manifest:
 
     *= require scrivito_seo_headline_extender
 
+If you use `sass-rails` for your application stylesheet manifest (e.g. `application.scss` or `application.css.scss`) add the following:
+
+    @import "scrivito_seo_headline_extender/application";
+
 If your app already includes a Headline widget, you need to delete it to avoid a conflict.
 
 ## Localization
