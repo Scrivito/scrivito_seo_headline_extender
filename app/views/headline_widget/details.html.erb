@@ -18,6 +18,11 @@
   <%= scrivito_tag(:div, widget, :alignment) %>
 <% end %>
 
+<%= scrivito_details_for t('scrivito_headline_widget.details.weight', default: 'Weight') do %>
+  <%= scrivito_tag(:div, widget, :weight) %>
+<% end %>
+
+
 <%= scrivito_details_for t('scrivito_headline_widget.details.anchor', default: 'Anchor') do %>
   <%= scrivito_tag(:div, widget, :anchor) %>
 <% end %>

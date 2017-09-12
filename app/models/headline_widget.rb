@@ -4,10 +4,11 @@ class HeadlineWidget < Widget
   attribute :anchor, :string
   attribute :type, :enum, values: ['h1','h2','h3','h4','h5','h6'], default: 'h3'
   attribute :size, :enum, values: ['h1','h2','h3','h4','h5','h6']
-  attribute :alignment, :enum, values: ['center','left','right']
+  attribute :alignment, :enum, values: ['left','center','right']
+  attribute :weight, :enum, values: ['lighter','light','normal','bold','bolder'], default: 'normal'
 
   def css_class
-    [self.size, self.alignment].join(" ")
+    [self.size, "text-#{self.alignment}", "font-#{self.weight}"].join(" ")
   end
 
   def tag

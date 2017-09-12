@@ -35,6 +35,26 @@ en:
       size: Size
       alignment: Alignment
       anchor: Anchor
+      weight: Weight
+```
+
+## Font Weight
+
+If you load a custom font like from google fonts, be sure different weights are loaded. To use all siezes you need 100,300,400,600 and 800.
+For example:
+
+```css
+  @import url('https://fonts.googleapis.com/css?family=Fjalla+One:100,300,400,600,800');
+```
+
+If you need different weights, you chave to overwrite the css:
+
+```css
+  .font-lighter { font-weight: 100 !important; }
+  .font-light { font-weight: 300 !important; }
+  .font-normal { font-weight: 400 !important; }
+  .font-bold { font-weight: 700 !important; }
+  .font-bolder { font-weight: 900 !important; }
 ```
 
 ## Customization

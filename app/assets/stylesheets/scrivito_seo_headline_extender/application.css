@@ -5,14 +5,22 @@ h4, .h4, .small { font-size: 18px; line-height: 28px; }
 h5, .h5, .text { font-size: 15px; line-height: 26px; }
 h6, .h6 { font-size: 13px; line-height: 23px; }
 
-h1.left, h2.left, h3.left, h4.left, h5.left, h6.left {
-  text-align: left;
+.font-lighter {
+  font-weight: 100 !important;
 }
 
-h1.center, h2.center, h3.center, h4.center, h5.center, h6.center {
-  text-align: center;
+.font-light {
+  font-weight: 300 !important;
 }
 
-h1.right, h2.right, h3.right, h4.right, h5.right, h6.right {
-  text-align: right;
+.font-normal {
+  font-weight: 400 !important;
+}
+
+.font-bold {
+  font-weight: 600 !important;
+}
+
+.font-bolder {
+  font-weight: 800 !important;
 }
